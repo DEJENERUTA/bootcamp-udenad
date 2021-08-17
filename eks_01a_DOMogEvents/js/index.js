@@ -8,21 +8,21 @@ document.addEventListener("DOMContentLoaded", () => {
 	// skriv din kode her...
 	const buttonUp = document.querySelector("#btn-count-increase");
 	const buttonDown = document.querySelector("#btn-count-decrease");
-	const textFinder = document.querySelector("#text-count");
+	const tex = document.querySelector("#text-count");
 	let countUp = 5;
-	textFinder.textContent = countUp + "🕺";
+	tex.textContent = countUp + "🕺";
 	buttonUp.addEventListener("click", count);
 	buttonDown.addEventListener("click", countNed);
 	function count() {
 		if (countUp < 10) {
 			countUp += 1;
-			textFinder.textContent = countUp;
+			tex.textContent = countUp;
 		}
 	}
 	function countNed() {
 		if (countUp > 0) {
 			countUp -= 1;
-			textFinder.textContent = countUp;
+			tex.textContent = countUp;
 		}
 	}
 }); // Afslutter: DOMContentLoaded
