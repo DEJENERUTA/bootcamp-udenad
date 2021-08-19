@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	// Nå man klikker på plusset skal værdien formindseks med en
 	// værdien må ikke kommer over 10
 	// værdien må ikke kommer over 0
+	//the commit sentence is wrong
 
 	// skriv din kode her...
 	const buttonUp = document.querySelector("#btn-count-increase");
