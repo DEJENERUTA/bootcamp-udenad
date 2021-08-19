@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	const buttonUp = document.querySelector("#btn-count-increase");
 	const buttonDown = document.querySelector("#btn-count-decrease");
 	const texFinder = document.querySelector("#text-count");
-	//let findOut;
+	let findOut;
 	let countUp = 5;
 	let maxValue = 15;
 	let minValue = 0;
